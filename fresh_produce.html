@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fresh Produce - Tenth Street Market & Deli</title>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/override.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
+    </head>
+    
+    <body>
+     <div class="container">
+       <div class = "row">
+         <div class="col-xs-12">
+           <header>
+             <div id="fixed-top"> 
+               <figure>
+                 <a href="index.html"><img id="img1"  src="Images/logo_result.jpg" alt="Brand Logo"></a> 
+                 <img id="img2"  src="Images/caption3.jpg" alt="Caption">   
+               </figure> 
+             </div><br>
+          </header>  
+        
+      <!-- Menu-bar -->
+         <nav class="navbar navbar-default">
+  		   <div class="container-fluid">
+            
+             <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">Visit</a>
+             </div>
+
+            
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                 <a id="a1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Departments<span class="caret"></span></a> 
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a id="a2" href="fresh_produce.html">Fresh Produce</a></li>
+                    <li><a href="grocery.html">Grocery</a></li>
+                    <li><a href="dairy_products.html">Dairy Products</a></li>
+                  </ul>
+                </li>
+                <li><a href="#myModal" data-toggle="modal" data-backdrop="static">Contact Us</a></li>
+                
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right">
+        		 <li><a href="register.html">Register/Sign In</a></li>
+                 <li><a href="checkout.html">Proceed to Checkout</a></li>
+              </ul>
+              
+            </div>
+          </div>
+          
+        </nav> 
+        <!-- End of Menu-bar -->
+        <hr>
+        
+        <!-- Modal -->
+           <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                             <h3 class="modal-title">Contact Us</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                        	<div class="form-group">
+                                <input type="text" class="form-control" id="first_name" placeholder="First Name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="last_name" placeholder="Last Name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="phone_no" placeholder="Phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea class="form-control" id="message-text" placeholder="Your Message"></textarea>
+                            </div>
+                    	</form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onClick="send_msg();">Send</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+    	   </div>
+           
+           <!-- End of Modal -->
+           
+      <div class = "row">
+       <div class="col-xs-12">
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/apples_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Apples</b></div>
+                            <b>Price: $2.99</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               
+               </div>
+         </div>
+         
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/grapes_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Grapes</b></div>
+                            <b>Price: $4.29</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               
+               </div>
+         </div>
+         
+        <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/oranges_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Oranges</b></div>
+                            <b>Price: $3.99</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               
+               </div>
+         </div>
+         
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/strawberry_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Strawberry</b></div>
+                            <b>Price: $3.25</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               
+               </div>
+         </div>
+         
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/turnips_result.jpg" alt="Brand Logo"> 
+                       	  <figcaption> 
+                            <div><b>Tokyo Turnips</b></div>
+                            <b>Price: $2.15</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               
+               </div>
+         </div>
+         
+        <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/chinese-cabbage_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Chinese Cabbage</b></div>
+                            <b>Price: $4.23</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               </div>
+         </div>
+         
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/onions_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Onions</b></div>
+                            <b>Price: $3.45</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               </div>
+         </div>
+         
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/sweet_potatoes1.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Sweet Potatoes</b></div>
+                            <b>Price: $3.59</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               </div>
+         </div>
+         
+         <div class="col-sm-6 col-md-6 col-lg-4"> 
+               <div class="panel panel-default">
+                   <div class="panel-body text-center">
+                       <figure>
+                          <img class="img-responsive center-block" src="Images/tomatoes_result.jpg" alt="Brand Logo">
+                       	  <figcaption> 
+                            <div><b>Roma Tomatoes</b></div>
+                            <b>Price: $1.29</b>
+                          </figcaption>
+                        </figure>  
+                   	   <div class="checkbox"> <label> <input type="checkbox"> Add to Cart</label></div>
+                   </div>
+               </div>
+          </div>
+        
+        </div>
+       </div>    
+           
+       <div class = "row">
+         <div class="col-xs-12">  
+          <hr>
+           <footer>
+               <div class="row">
+                  <div class="col-lg-12">
+                    <div id="fixed-bottom">
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
+                             <div id="fixed-bottom1"> 
+                                   <figure><img src="Images/about_us3.jpg" class="center-block" alt="About Us"></figure>
+                                   <p class="text-justify footer_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at diam elit. Aliquam feugiat pretium elit. Quisque tempus purus at neque vehicula pellentesque. Cras arcu tellus, euismod id tellus in, scelerisque tempor orci. Donec id augue in turpis pellentesque semper. Mauris eget purus dui. Vestibulum non est odio.
+                                   </p>  
+                             </div>
+                         </div>
+                     
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-right">
+                             <div id="fixed-bottom2"> 
+                                   <figure><img src="Images/visit_us.jpg" class="center-block" alt="Visit Us"></figure>
+                                   <p class="text-justify footer_para">
+                                        <span class="span_pad_left110">
+                                          <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                                          <span class="span_pad_left10"> 1823 E 10th St,</span><br>
+                                          <span class="span_pad_left140">Bloomington, IN 47408</span><br>
+                                          <span class="span_pad_left140">IN 47408 </span>
+                                        </span><br><br>
+                                        
+                                        <span class="span_pad_left110">
+                                          <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                          <span class="span_pad_left10">(812) 336-1833 </span>
+                                        </span><br>
+                                        
+                                        <span class="span_pad_left110">
+                                          <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                                          <span class="span_pad_left10"> 10:00 am – 10:00 pm </span>
+                                        </span>
+                                   </p>  
+                             </div>
+                         </div>  
+                     
+                     </div>
+                   </div>
+               </div>
+               <p id="msg_para"><b>*All the images used in this website are available in the public domain</b></p>
+           </footer>
+
+         </div>  
+       </div>
+     </div> 
+     </div>
+     </div>
+     <!-- End of Container --> 
+    
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/message.js"></script>
+   </body>
+</html>
